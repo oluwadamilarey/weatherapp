@@ -3,6 +3,7 @@
     "name": "weatherapp",
     "slug": "weatherapp",
     "version": "1.0.0",
+    "owner": "weather-interview",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -20,10 +21,22 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.oluwadamilarey.weatherapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "074ad837-1063-4abd-a30e-c2414aed878d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/074ad837-1063-4abd-a30e-c2414aed878d"
     }
   }
 }
