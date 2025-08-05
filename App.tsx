@@ -14,7 +14,7 @@ const App: React.FC = () => {
         />
         <View style={styles.header}>
           <Text style={styles.title}>Weather App</Text>
-          <Text style={styles.subtitle}>Enterprise-grade weather data</Text>
+          <Text style={styles.subtitle}>Beta weather data</Text>
         </View>
         <WeatherApp />
       </SafeAreaView>

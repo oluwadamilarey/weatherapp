@@ -53,6 +53,11 @@ const colors = {
   successTransparent: "rgba(16, 185, 129, 0.1)",
   warningTransparent: "rgba(245, 158, 11, 0.1)",
   errorTransparent: "rgba(239, 68, 68, 0.1)",
+
+  primaryTranslucent: "rgba(30, 58, 138, 0.7)", // Translucent for blur overlay
+
+  backgroundTranslucent: "rgba(247, 250, 252, 0.8)", // Semi-transparent for blur
+  // Light gray for secondary elements
 };
 
 // Typography scale with performance optimizations

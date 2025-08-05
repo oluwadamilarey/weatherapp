@@ -168,7 +168,7 @@ export const WeatherApp: React.FC = () => {
 
     return (
       <View style={styles.emptyState}>
-        <Text style={styles.emptyStateTitle}>Welcome to Weather App</Text>
+        <Text style={styles.emptyStateTitle}> Real Time Weather Data</Text>
         <Text style={styles.emptyStateMessage}>
           Search for a city to get started
         </Text>
